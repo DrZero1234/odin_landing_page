@@ -1,4 +1,22 @@
 
+.main {
+    display: flex;
+    flex-direction: column;
+}
+
+.header {
+    background-color: #1F2937;
+}
+
+.header-top {
+    display: flex;
+}
+
+#company-logo {
+    mix-blend-mode: multiply;
+    width: 110px;
+}
+
 .img-placeholder {
     height: 200px;
     width: 300px;
