@@ -1,18 +1,29 @@
-.container {
+
+.main {
     display: flex;
-    text-align: end;
+    flex-direction: column;
 }
 
-.navbar {
+.header {
+    background-color: #1F2937;
+}
+
+.header-top {
     display: flex;
-
-} 
-
-.navbar-left {
-    margin-left: 25px;
 }
 
-.navbar-right {
-    margin-right: 0px;
-    gap: 25px;
+#company-logo {
+    mix-blend-mode: multiply;
+    width: 110px;
 }
+
+.img-placeholder {
+    height: 200px;
+    width: 300px;
+    background-color: #013208;
+}
+
+.info-img-placeholder {
+    height: 150px;
+    width: 150px;
+    border: solid 2px blue
