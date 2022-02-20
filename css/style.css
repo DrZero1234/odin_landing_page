@@ -38,15 +38,33 @@ html {
     font-weight: 800;
 }
 
+.introduction {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    padding: 48px;
+}
+
+.intro-left {
+    align-items: flex-start;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 500px;
+}
 
 #company-logo {
     mix-blend-mode: multiply;
     width: 110px;
 }
 
-.img-placeholder {
-    height: 200px;
-    width: 300px;
+#img-placeholder {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 300px;
+    width: 500px;
     background-color: #013208;
 }
 
