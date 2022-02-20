@@ -1,3 +1,7 @@
+html {
+    box-sizing: border-box;
+}
+
 
 .main {
     display: flex;
@@ -6,10 +10,23 @@
 
 .header {
     background-color: #1F2937;
+    font-size: 18px;
+    color: #E5E7EB;
 }
 
 .header-top {
     display: flex;
+}
+
+.header-right, .header-left {
+    display: flex;
+    align-items: center;
+}
+
+.header-title {
+    color: #F9FAF8;
+    font-size:  48px;
+    font-weight: 800;
 }
 
 #company-logo {
@@ -27,3 +44,10 @@
     height: 150px;
     width: 150px;
     border: solid 2px blue
+}
+
+a {
+    text-decoration: none;
+    font-size: 18px;
+    color: #E5E7EB;
+}
