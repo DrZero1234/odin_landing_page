@@ -1,0 +1,12 @@
+
+.img-placeholder {
+    height: 200px;
+    width: 300px;
+    background-color: #013208;
+}
+
+.info-img-placeholder {
+    height: 150px;
+    width: 150px;
+    border: solid 2px blue
+}
