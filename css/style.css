@@ -16,6 +16,7 @@ html {
     background-color: #1F2937;
     font-size: 18px;
     color: #E5E7EB;
+    margin-bottom: 30px;
 }
 
 .header-top {
@@ -54,6 +55,12 @@ html {
     width: 500px;
 }
 
+#signup-header {
+    background-color: #3882F6;
+    color: white;
+    font-weight: 800;
+}
+
 #company-logo {
     mix-blend-mode: multiply;
     width: 110px;
@@ -68,13 +75,62 @@ html {
     background-color: #013208;
 }
 
-/* Content styles */
+/* Info styles */
+
+#info-title {
+    text-align: center;
+    margin-bottom: 32px;
+    font-size: 32px;
+    font-weight: 800;
+    color: #1F2937;
+}
+
+.site-info {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 64px;
+    gap: 30px;
+}
+
+.info {
+    width: 150px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+
+}
 
 .info-img-placeholder {
     height: 150px;
     width: 150px;
-    border: solid 2px blue
+    border: solid 4px #3882F6;
+    border-radius: 10px;
 }
+
+/* Quote Styles */
+
+.quote-container {
+    display: flex;
+    padding: 96px;
+    flex-direction: column;
+    align-items: center;
+    font-size: 36px;
+    color: #1F2937;
+    font-style: italic;
+    background-color: #E5E7EB;
+}
+
+.quote {
+    width: 600px;
+}
+
+.author {
+    display: flex;
+    justify-content: flex-end;
+    font-weight: bold;
+}
+
 
 /* Tag styles */
 
@@ -83,3 +139,10 @@ a {
     font-size: 18px;
     color: #E5E7EB;
 }
+
+button {
+    padding: 5px 20px;
+    border-radius: 6px;
+    border: none;
+}
+
