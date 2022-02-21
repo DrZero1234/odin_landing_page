@@ -119,10 +119,15 @@ html {
     color: #1F2937;
     font-style: italic;
     background-color: #E5E7EB;
+    /* Top and bottom margins are 96 */
+    margin: 96px 0px 96px 0px;
 }
 
 .quote {
-    width: 600px;
+    width 600px;
+    display: flex;
+    flex-direction: column;
+    flex: 1
 }
 
 .author {
@@ -130,6 +135,9 @@ html {
     justify-content: flex-end;
     font-weight: bold;
 }
+
+/* Signup Styles */
+
 
 
 /* Tag styles */
